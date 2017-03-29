@@ -1,0 +1,180 @@
+a{
+	text-decoration: none !important;
+}            
+a:visited {color: #0073aa !important; }                    
+a:active {color: #5c696f !important;}  
+body{
+	margin:0;
+	padding: 0;
+	font-family: BlinkMacSystemFont;
+	background-color: #f5f5f5;
+}
+#all{
+	margin-left: 163px;
+	padding-top: 50px;
+}
+.icon1 {
+   	width: 20px; height: 20px;
+   	font-size: 16px;
+   	vertical-align: -0.15em;
+   	fill: white;
+   	margin: 7px 5px 7px 10px;
+   	float: left;
+   	display: table-cell;
+	vertical-align:middle;
+}
+
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   float: left;
+}
+.icon2{
+   width: 26px; height: 26px;
+   vertical-align: -0.15em;
+   fill: white;
+   float: left;
+   margin: 7px 5px 7px 10px;
+   position: 0.3s;
+}
+
+header{
+	height: 32px;
+	width: 100%;
+	position:fixed;
+	z-index: 2;
+	background-color:#74acdf;
+	border-bottom: 4px solid #0073aa;
+	box-shadow: 0px 0px 3px 0px #1f1f1f;
+	min-width: 420px;
+}
+.head1{
+	height: 32px;
+	background-color: #74acdf;
+	width:90px;
+	margin:0;
+	float: left;
+	transition: all;
+	transition-duration: 0.3s;
+	cursor:pointer;
+}
+.head2{
+	height: 32px;
+	background-color: #74acdf;
+	width:120px;
+	margin:0;
+	float: right;
+	transition: all;
+	transition-duration: 0.3s;
+	cursor:pointer;
+}
+.head1:hover,.head2:hover {
+	background-color: #2f90e8;
+}
+.head1:hover>a,.head2:hover>a,.head2:hover>p{
+	color: #4ec6ff;
+}
+.head1:hover>.icon1,a{
+	fill:#bde0ff;
+}
+header .a1{
+	float:left;
+	margin: 0 10px 0 8px;
+	padding-top: 8px;
+	font-size: 13px;
+	color: white;
+	text-decoration:none;
+}
+header p{
+	float:right;
+	margin: 0 10px 0 8px;
+	padding-top: 8px;
+	font-size: 13px;
+	color: white;
+}
+#name{
+	float: right;
+}
+
+#lbox { 
+	position:fixed; 
+	width:160px; 
+	height:100%; 
+	background-color:#74acdf;
+	z-index: 1;
+	border-right: 1px solid #f6f6f6;
+/*	left:-140px;
+	transition:0.3s 
+  	ease-in-out;
+  	*/
+  }
+/*#lbox:hover { 
+	left:0px;
+}*/
+.menu1 .a2{
+	float:left;
+	margin: 6px 10px 0 8px;
+	padding-top: 8px;
+	font-size: 13px;
+	color: white;
+	font-family: BlinkMacSystemFont;
+	text-decoration: none;
+}
+.menu1{
+	height: 40px;
+	background-color: #74acdf;
+	width:160px;
+	margin-top:0px;
+	transition: all;
+	transition-duration: 0.3s;
+	cursor:pointer;
+}
+#menu11{
+	margin-top: 40px;
+}
+.menu1:hover{
+	background-color: #1265b1;
+	
+}
+.hover2{
+	background-color: #f3b00e;
+	
+}
+.menu1:hover>.icon2,.menu1:hover>p{
+	fill: white;
+	color : white;
+}
+.menu2 .a2{
+	float:left;
+	margin:0 10px;
+	padding-top: 8px;
+	font-size: 13px;
+	color: #686868;
+	font-family: BlinkMacSystemFont;
+	text-decoration: none;
+}
+.menu2:hover>p{
+	color: #4ec6ff;
+}
+.hover{
+	font-weight: bold;
+	color: black;
+}
+.menu2{
+	height: 35px;
+	background-color: white;
+	width:150px;
+	margin:0 auto;
+	transition: all;
+	transition-duration: 0.3s;
+	cursor:pointer;
+	padding-left: 10px;
+}
+
+
+
+#mainn{
+	background-color: #f1f1f1;
+}
